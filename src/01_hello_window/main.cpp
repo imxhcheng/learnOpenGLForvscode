@@ -40,7 +40,8 @@ int main()
 
     // 渲染指令
     // ...
-    glClearColor(25.0 / 255.0, 25.0 / 255.0, 25.0 / 255.0, 1.0);
+    //glClearColor(25.0 / 255.0, 25.0 / 255.0, 25.0 / 255.0, 1.0);
+    glClearColor(0.2, 0.2, 0.3, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
 
     glfwSwapBuffers(window);
