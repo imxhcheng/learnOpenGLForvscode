@@ -12,22 +12,16 @@
                 "command": "powershell",
                 "args": [
                     "-c",
-                    "mingw32-make"
+                    "make dir=13_model_view_projection" // 调式之前设置目录
                 ]
             },
             "linux": {
                 "command": "bash",
-                "args": [
-                    "-c",
-                    "make"
-                ]
+                "args": ["-c", "make"]
             },
             "osx": {
                 "command": "bash",
-                "args": [
-                    "-c",
-                    "make"
-                ]
+                "args": ["-c", "make"]
             }
         },
         {
@@ -35,24 +29,15 @@
             "type": "shell",
             "windows": {
                 "command": "powershell",
-                "args": [
-                    "-c",
-                    "'mingw32-make run'"
-                ]
+                "args": ["-c", "'mingw32-make run'"]
             },
             "linux": {
                 "command": "bash",
-                "args": [
-                    "-c",
-                    "'make run'"
-                ]
+                "args": ["-c", "'make run'"]
             },
             "osx": {
                 "command": "bash",
-                "args": [
-                    "-c",
-                    "'make run'"
-                ]
+                "args": ["-c", "'make run'"]
             }
         },
         {
@@ -60,24 +45,15 @@
             "type": "shell",
             "windows": {
                 "command": "powershell",
-                "args": [
-                    "-c",
-                    "'mingw32-make clean'"
-                ]
+                "args": ["-c", "'mingw32-make clean'"]
             },
             "linux": {
                 "command": "bash",
-                "args": [
-                    "-c",
-                    "'make clean'"
-                ]
+                "args": ["-c", "'make clean'"]
             },
             "osx": {
                 "command": "bash",
-                "args": [
-                    "-c",
-                    "'make clean'"
-                ]
+                "args": ["-c", "'make clean'"]
             }
         }
     ]
