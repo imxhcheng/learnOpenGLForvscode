@@ -12,7 +12,7 @@
                 "command": "powershell",
                 "args": [
                     "-c",
-                    "make dir=13_model_view_projection" // 调式之前设置目录
+                    "make dir=arc_load_texture" // 调式之前设置目录
                 ]
             },
             "linux": {
