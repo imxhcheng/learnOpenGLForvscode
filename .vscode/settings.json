@@ -52,5 +52,7 @@
         "typeinfo": "cpp"
     },
     "cmake.configureOnOpen": false,
-    "cmake.sourceDirectory": "${workspaceFolder}/include/glm"
+    "cmake.sourceDirectory": "${workspaceFolder}/include/glm",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "aiXcoder.showTrayIcon": true
 }
